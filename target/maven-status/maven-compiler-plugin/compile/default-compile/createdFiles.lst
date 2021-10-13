@@ -1,0 +1,9 @@
+com\base\TestBase.class
+com\pages\UpdateCartPage.class
+com\pages\RegistrationPage.class
+com\pages\SearchAddPage.class
+com\util\ExcelReader.class
+com\base\Base.class
+com\pages\LoginPage.class
+com\pages\BillingPage.class
+com\pages\CheckOutPage.class

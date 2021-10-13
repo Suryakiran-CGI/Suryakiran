@@ -1,0 +1,144 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Oct 11 18:25:56 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>1 seconds (1264 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='MyRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: MyRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test to validate Add to Cart functionality", "Optional[Test item Search and Add Functionality on Demo Web Page]"</td>
+<td></td>
+<td>0</td>
+<td>MyRunner.TestRunner@402bba4f</td></tr>
+<tr>
+<td title='MyRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: MyRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test User Login with InValid Credentials", "Optional[Login Functionality on Demo Web Page]"</td>
+<td></td>
+<td>0</td>
+<td>MyRunner.TestRunner@402bba4f</td></tr>
+<tr>
+<td title='MyRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: MyRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Registration process with Valid credintials", "Optional[DemoWebShop Registraion process]"</td>
+<td></td>
+<td>0</td>
+<td>MyRunner.TestRunner@402bba4f</td></tr>
+<tr>
+<td title='MyRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: MyRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Registration process with inValid credintials", "Optional[DemoWebShop Registraion process]"</td>
+<td></td>
+<td>0</td>
+<td>MyRunner.TestRunner@402bba4f</td></tr>
+<tr>
+<td title='MyRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: MyRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test to validate Add to Cart functionality", "Optional[Test item Search and Add Functionality on Demo Web Page]"</td>
+<td></td>
+<td>0</td>
+<td>MyRunner.TestRunner@402bba4f</td></tr>
+<tr>
+<td title='MyRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: MyRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User should move from DemoWebShop page to Registration page", "Optional[DemoWebShop Registraion process]"</td>
+<td></td>
+<td>0</td>
+<td>MyRunner.TestRunner@402bba4f</td></tr>
+<tr>
+<td title='MyRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: MyRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Optional[Test Checkout functionality of an item]"</td>
+<td></td>
+<td>0</td>
+<td>MyRunner.TestRunner@402bba4f</td></tr>
+<tr>
+<td title='MyRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: MyRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test to validate Add to Cart functionality", "Optional[Test item Search and Add Functionality on Demo Web Page]"</td>
+<td></td>
+<td>0</td>
+<td>MyRunner.TestRunner@402bba4f</td></tr>
+<tr>
+<td title='MyRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: MyRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test User Login with Valid Credentials", "Optional[Login Functionality on Demo Web Page]"</td>
+<td></td>
+<td>0</td>
+<td>MyRunner.TestRunner@402bba4f</td></tr>
+<tr>
+<td title='MyRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: MyRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User to enter billing details", "Optional[Test Billing Functionality of Demo WebPage]"</td>
+<td></td>
+<td>0</td>
+<td>MyRunner.TestRunner@402bba4f</td></tr>
+<tr>
+<td title='MyRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: MyRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test for Verifying ShoppingCart Removing Update", "Optional[Test the Update Functionality of added product on Demo Web Page]"</td>
+<td></td>
+<td>0</td>
+<td>MyRunner.TestRunner@402bba4f</td></tr>
+<tr>
+<td title='MyRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: MyRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test to validate Add to Cart functionality", "Optional[Test item Search and Add Functionality on Demo Web Page]"</td>
+<td></td>
+<td>0</td>
+<td>MyRunner.TestRunner@402bba4f</td></tr>
+<tr>
+<td title='MyRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: MyRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test for Verifying ShoppingCart AddQuantity Update", "Optional[Test the Update Functionality of added product on Demo Web Page]"</td>
+<td></td>
+<td>0</td>
+<td>MyRunner.TestRunner@402bba4f</td></tr>
+</table><p>
+</body>
+</html>

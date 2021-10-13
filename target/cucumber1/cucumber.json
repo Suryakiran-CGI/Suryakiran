@@ -1,0 +1,1528 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-12T07:38:22.187Z",
+        "line": 2,
+        "name": "User should move from DemoWebShop page to Registration page",
+        "description": "",
+        "id": "demowebshop-registraion-process;user-should-move-from-demowebshop-page-to-registration-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3144490500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is on DemoWebShop page",
+            "match": {
+              "location": "StepDefinition.$1_RegisterModule.user_is_on_demo_web_shop_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3015233700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User click on Register button",
+            "match": {
+              "location": "StepDefinition.$1_RegisterModule.user_click_on_register_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 599131200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Registration Page",
+            "match": {
+              "location": "StepDefinition.$1_RegisterModule.user_is_on_registration_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-12T07:38:28.972Z",
+        "line": 18,
+        "name": "Test Registration process with Valid credintials",
+        "description": "",
+        "id": "demowebshop-registraion-process;test-registration-process-with-valid-credintials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4042058900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on DemoWebShop page",
+            "match": {
+              "location": "StepDefinition.$1_RegisterModule.user_is_on_demo_web_shop_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 516951700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on Register button",
+            "match": {
+              "location": "StepDefinition.$1_RegisterModule.user_click_on_register_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57523100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on the male",
+            "match": {
+              "arguments": [
+                {
+                  "val": "male",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinition.$1_RegisterModule.user_clicks_on_the(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134225700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters Surya and Kalyan",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Surya",
+                  "offset": 12
+                },
+                {
+                  "val": "Kalyan",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinition.$1_RegisterModule.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83400200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User types bharath741@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bharath741@gmail.com",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDefinition.$1_RegisterModule.user_types(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114860900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Types surya1234 , surya1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "surya1234",
+                  "offset": 11
+                },
+                {
+                  "val": "surya1234",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinition.$1_RegisterModule.user_Types_(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 910576100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Clicks on Register button",
+            "match": {
+              "location": "StepDefinition.$1_RegisterModule.user_Clicks_on_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 653716200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User is succesfully registered",
+            "match": {
+              "location": "StepDefinition.$1_RegisterModule.user_is_succesfully_registered()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-12T07:38:35.495Z",
+        "line": 31,
+        "name": "Test Registration process with inValid credintials",
+        "description": "",
+        "id": "demowebshop-registraion-process;test-registration-process-with-invalid-credintials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4794133300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User is on DemoWebShop page",
+            "match": {
+              "location": "StepDefinition.$1_RegisterModule.user_is_on_demo_web_shop_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 431040000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User click on Register button",
+            "match": {
+              "location": "StepDefinition.$1_RegisterModule.user_click_on_register_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks on the other",
+            "match": {
+              "arguments": [
+                {
+                  "val": "other",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinition.$1_RegisterModule.user_clicks_on_the(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135501000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User enters sam and ruth",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sam",
+                  "offset": 12
+                },
+                {
+                  "val": "ruth",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefinition.$1_RegisterModule.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67370900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User types kalyani12@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kalyani12@gmail.com",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDefinition.$1_RegisterModule.user_types(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117865200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User Types Yogesh098@ , Yogesh098@",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Yogesh098@",
+                  "offset": 11
+                },
+                {
+                  "val": "Yogesh098@",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinition.$1_RegisterModule.user_Types_(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 667484200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User Clicks on Register button",
+            "match": {
+              "location": "StepDefinition.$1_RegisterModule.user_Clicks_on_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 600267300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User should not able to registered",
+            "match": {
+              "location": "StepDefinition.$1_RegisterModule.user_should_not_able_to_registered()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "DemoWebShop Registraion process",
+    "description": "",
+    "id": "demowebshop-registraion-process",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/1_RegisterPage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-12T07:38:42.330Z",
+        "line": 13,
+        "name": "Test User Login with Valid Credentials",
+        "description": "",
+        "id": "login-functionality-on-demo-web-page;test-user-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4694081600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be on Home page",
+            "match": {
+              "location": "StepDefinition.$2_LoginModule.user_should_be_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 411604300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "StepDefinition.$2_LoginModule.user_clicks_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 123153200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should enter Registered johnfletcher@gmail.com and mypas1234$",
+            "match": {
+              "arguments": [
+                {
+                  "val": "johnfletcher@gmail.com",
+                  "offset": 29
+                },
+                {
+                  "val": "mypas1234$",
+                  "offset": 56
+                }
+              ],
+              "location": "StepDefinition.$2_LoginModule.user_should_enter_registered_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 471450600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should click on Log in button",
+            "match": {
+              "location": "StepDefinition.$2_LoginModule.user_should_click_on_log_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 715286500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be able to logged in successfully",
+            "match": {
+              "location": "StepDefinition.$2_LoginModule.user_should_be_able_to_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-12T07:38:48.760Z",
+        "line": 25,
+        "name": "Test User Login with InValid Credentials",
+        "description": "",
+        "id": "login-functionality-on-demo-web-page;test-user-login-with-invalid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4603286500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should be on Home page",
+            "match": {
+              "location": "StepDefinition.$2_LoginModule.user_should_be_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 619044400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "StepDefinition.$2_LoginModule.user_clicks_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 133033000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User should enter Unregistered admin123@gmail.com and mypass123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin123@gmail.com",
+                  "offset": 31
+                },
+                {
+                  "val": "mypass123",
+                  "offset": 54
+                }
+              ],
+              "location": "StepDefinition.$2_LoginModule.user_should_enter_unregistered_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 408125700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User should click on Log in button",
+            "match": {
+              "location": "StepDefinition.$2_LoginModule.user_should_click_on_log_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 646401300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User should not be able to logged in",
+            "match": {
+              "location": "StepDefinition.$2_LoginModule.user_should_not_be_able_to_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality on Demo Web Page",
+    "description": "",
+    "id": "login-functionality-on-demo-web-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/2_LoginPage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-12T07:38:55.177Z",
+        "line": 12,
+        "name": "Test to validate Add to Cart functionality",
+        "description": "",
+        "id": "test-item-search-and-add-functionality-on-demo-web-page;test-to-validate-add-to-cart-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5655854300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should be on Home Page by logging-in using johnfletcher@gmail.com and mypass1234$",
+            "match": {
+              "arguments": [
+                {
+                  "val": "johnfletcher@gmail.com",
+                  "offset": 48
+                },
+                {
+                  "val": "mypass1234$",
+                  "offset": 75
+                }
+              ],
+              "location": "StepDefinition.$3_SearchAddModule.user_should_be_on_home_page_by_loggingin_using_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 70544000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters Health Book in search bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Health Book",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefinition.$3_SearchAddModule.user_enters_in_search_bar(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 909875100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on search button",
+            "match": {
+              "location": "StepDefinition.$3_SearchAddModule.user_clicks_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 424234800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Add to Cart button",
+            "match": {
+              "location": "StepDefinition.$3_SearchAddModule.user_clicks_on_add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5063323000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User added Health Book should be added to shoppingCart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Health Book",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDefinition.$3_SearchAddModule.user_added_should_be_added_to_shoppingcart(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-12T07:39:07.310Z",
+        "line": 13,
+        "name": "Test to validate Add to Cart functionality",
+        "description": "",
+        "id": "test-item-search-and-add-functionality-on-demo-web-page;test-to-validate-add-to-cart-functionality;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6019544500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should be on Home Page by logging-in using johnfletcher@gmail.com and mypass1234$",
+            "match": {
+              "arguments": [
+                {
+                  "val": "johnfletcher@gmail.com",
+                  "offset": 48
+                },
+                {
+                  "val": "mypass1234$",
+                  "offset": 75
+                }
+              ],
+              "location": "StepDefinition.$3_SearchAddModule.user_should_be_on_home_page_by_loggingin_using_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 69450600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters 14.1-inch Laptop in search bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "14.1-inch Laptop",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefinition.$3_SearchAddModule.user_enters_in_search_bar(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 695401200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on search button",
+            "match": {
+              "location": "StepDefinition.$3_SearchAddModule.user_clicks_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 436922600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Add to Cart button",
+            "match": {
+              "location": "StepDefinition.$3_SearchAddModule.user_clicks_on_add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5330630900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User added 14.1-inch Laptop should be added to shoppingCart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "14.1-inch Laptop",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDefinition.$3_SearchAddModule.user_added_should_be_added_to_shoppingcart(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-12T07:39:19.867Z",
+        "line": 14,
+        "name": "Test to validate Add to Cart functionality",
+        "description": "",
+        "id": "test-item-search-and-add-functionality-on-demo-web-page;test-to-validate-add-to-cart-functionality;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6035332300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should be on Home Page by logging-in using johnfletcher@gmail.com and mypass1234$",
+            "match": {
+              "arguments": [
+                {
+                  "val": "johnfletcher@gmail.com",
+                  "offset": 48
+                },
+                {
+                  "val": "mypass1234$",
+                  "offset": 75
+                }
+              ],
+              "location": "StepDefinition.$3_SearchAddModule.user_should_be_on_home_page_by_loggingin_using_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 69829700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters Black \u0026 White Diamond Heart in search bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Black \u0026 White Diamond Heart",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefinition.$3_SearchAddModule.user_enters_in_search_bar(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 812810300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on search button",
+            "match": {
+              "location": "StepDefinition.$3_SearchAddModule.user_clicks_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 487068900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Add to Cart button",
+            "match": {
+              "location": "StepDefinition.$3_SearchAddModule.user_clicks_on_add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4941821800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User added Black \u0026 White Diamond Heart should be added to shoppingCart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Black \u0026 White Diamond Heart",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDefinition.$3_SearchAddModule.user_added_should_be_added_to_shoppingcart(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-12T07:39:32.224Z",
+        "line": 27,
+        "name": "Test to validate Add to Cart functionality",
+        "description": "",
+        "id": "test-item-search-and-add-functionality-on-demo-web-page;test-to-validate-add-to-cart-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6724194300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User should be on Home Page by logging-in using johnfletcher@gmail.com and mypass1234$",
+            "match": {
+              "arguments": [
+                {
+                  "val": "johnfletcher@gmail.com",
+                  "offset": 48
+                },
+                {
+                  "val": "mypass1234$",
+                  "offset": 75
+                }
+              ],
+              "location": "StepDefinition.$3_SearchAddModule.user_should_be_on_home_page_by_loggingin_using_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 52984700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters Books in search bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Books",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefinition.$3_SearchAddModule.user_enters_in_search_bar(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 716083700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User clicks on search button",
+            "match": {
+              "location": "StepDefinition.$3_SearchAddModule.user_clicks_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4375975800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User gets search results",
+            "match": {
+              "location": "StepDefinition.$3_SearchAddModule.user_gets_search_results()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test item Search and Add Functionality on Demo Web Page",
+    "description": "",
+    "id": "test-item-search-and-add-functionality-on-demo-web-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/3_SearchandAdd.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-12T07:39:44.101Z",
+        "line": 13,
+        "name": "Test for Verifying ShoppingCart Removing Update",
+        "description": "",
+        "id": "test-the-update-functionality-of-added-product-on-demo-web-page;test-for-verifying-shoppingcart-removing-update;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6551136500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User on Demo Web Shop Home Page with login johnfletcher@gmail.com and mypass1234$",
+            "match": {
+              "arguments": [
+                {
+                  "val": "johnfletcher@gmail.com",
+                  "offset": 43
+                },
+                {
+                  "val": "mypass1234$",
+                  "offset": 70
+                }
+              ],
+              "location": "StepDefinition.$4_UpdateCartModule.user_is_on_demo_web_shop_home_page_with_login_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 726254800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on shopping cart",
+            "match": {
+              "location": "StepDefinition.$4_UpdateCartModule.user_clicks_on_shopping_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 150557100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User selects Health Book in Cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Health Book",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefinition.$4_UpdateCartModule.user_selects_in_cart(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60655300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User checks the respective checkbox of that Health Book",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Health Book",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDefinition.$4_UpdateCartModule.user_checks_the_respective_checkbox_of_that(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 721731900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on Update shopping cart for removing Product",
+            "match": {
+              "location": "StepDefinition.$4_UpdateCartModule.user_clicks_on_update_shopping_cart_for_removing_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4152416900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Checked item should be removed from Cart",
+            "match": {
+              "location": "StepDefinition.$4_UpdateCartModule.checked_item_should_be_removed_from_cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-12T07:39:56.468Z",
+        "line": 27,
+        "name": "Test for Verifying ShoppingCart AddQuantity Update",
+        "description": "",
+        "id": "test-the-update-functionality-of-added-product-on-demo-web-page;test-for-verifying-shoppingcart-addquantity-update;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6763837500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User on Demo Web Shop Home Page with login johnfletcher@gmail.com and mypass1234$",
+            "match": {
+              "arguments": [
+                {
+                  "val": "johnfletcher@gmail.com",
+                  "offset": 43
+                },
+                {
+                  "val": "mypass1234$",
+                  "offset": 70
+                }
+              ],
+              "location": "StepDefinition.$4_UpdateCartModule.user_is_on_demo_web_shop_home_page_with_login_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 720475700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks on shopping cart",
+            "match": {
+              "location": "StepDefinition.$4_UpdateCartModule.user_clicks_on_shopping_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 182369700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User selects 14.1-inch Laptop in Cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "14.1-inch Laptop",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefinition.$4_UpdateCartModule.user_selects_in_cart(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164932100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters 6 value of 14.1-inch Laptop in itemquantity box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 12
+                },
+                {
+                  "val": "14.1-inch Laptop",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinition.$4_UpdateCartModule.user_enters_value_of_itemquantity_box(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 606438100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User clicks on Update shopping cart button for AddQuantity update",
+            "match": {
+              "location": "StepDefinition.$4_UpdateCartModule.user_clicks_on_update_shopping_cart_button_for_adding_update()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4625490700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User entered 14.1-inch Laptop item quantity 6 is updated",
+            "match": {
+              "arguments": [
+                {
+                  "val": "14.1-inch Laptop",
+                  "offset": 13
+                },
+                {
+                  "val": "6",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDefinition.$4_UpdateCartModule.user_entered_item_quantity_is_updated(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test the Update Functionality of added product on Demo Web Page",
+    "description": "",
+    "id": "test-the-update-functionality-of-added-product-on-demo-web-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/4_UpdateCart.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-12T07:40:09.542Z",
+        "line": 12,
+        "name": "",
+        "description": "",
+        "id": "test-checkout-functionality-of-an-item;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7116636200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Home page by logging with johnfletcher@gmail.com and mypass1234$",
+            "match": {
+              "arguments": [
+                {
+                  "val": "johnfletcher@gmail.com",
+                  "offset": 37
+                },
+                {
+                  "val": "mypass1234$",
+                  "offset": 64
+                }
+              ],
+              "location": "StepDefinition.$5_CheckOutModule.user_is_on_home_page_by_logging_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 674096400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on shoppingCart button",
+            "match": {
+              "location": "StepDefinition.$5_CheckOutModule.user_clicks_on_shopping_cart_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 253346600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Select and enter India and Other (Non US) and 535591",
+            "match": {
+              "arguments": [
+                {
+                  "val": "India",
+                  "offset": 17
+                },
+                {
+                  "val": "Other (Non US)",
+                  "offset": 27
+                },
+                {
+                  "val": "535591",
+                  "offset": 46
+                }
+              ],
+              "location": "StepDefinition.$5_CheckOutModule.select_and_enter_and_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 548910900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click Estimate Shipping Button",
+            "match": {
+              "location": "StepDefinition.$5_CheckOutModule.click_estimate_shipping_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1244701700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Checkout button",
+            "match": {
+              "location": "StepDefinition.$5_CheckOutModule.click_on_checkout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 626565000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should see Billing Page",
+            "match": {
+              "location": "StepDefinition.$5_CheckOutModule.user_should_see_billing_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Checkout functionality of an item",
+    "description": "",
+    "id": "test-checkout-functionality-of-an-item",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/5_CheckOutPage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-12T07:40:20.012Z",
+        "line": 26,
+        "name": "User to enter billing details",
+        "description": "",
+        "id": "test-billing-functionality-of-demo-webpage;user-to-enter-billing-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6656044700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Home Page by logging in by using the johnfletcher@gmail.com and mypass1234$",
+            "match": {
+              "arguments": [
+                {
+                  "val": "johnfletcher@gmail.com",
+                  "offset": 48
+                },
+                {
+                  "val": "mypass1234$",
+                  "offset": 75
+                }
+              ],
+              "location": "StepDefinition.$6_BillingModule.user_is_on_home_page_by_logging_in_by_using_the_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 711965700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User loggedin navigate to Billing Page",
+            "match": {
+              "location": "StepDefinition.$6_BillingModule.user_loggedin_navigate_to_billing_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 88560200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Now Enter respective  Capgemini",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Capgemini",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinition.$6_BillingModule.now_enter_respective(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 158576200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Select the Austria and Other (Non US)",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Austria",
+                  "offset": 11
+                },
+                {
+                  "val": "Other (Non US)",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinition.$6_BillingModule.select_the_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75797900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter the Lower Austria name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lower Austria",
+                  "offset": 10
+                }
+              ],
+              "location": "StepDefinition.$6_BillingModule.enter_the_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 145811900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Enter the flat 23,Austria,lower bridges details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "flat 23,Austria,lower bridges",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinition.$6_BillingModule.user_enter_the_details(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69694300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Now enter the 6754321",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6754321",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinition.$6_BillingModule.now_enter_the(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63806200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter 987654321 in the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "987654321",
+                  "offset": 6
+                }
+              ],
+              "location": "StepDefinition.$6_BillingModule.enter_in_the_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63611600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "At last enter the 119086534",
+            "match": {
+              "arguments": [
+                {
+                  "val": "119086534",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinition.$6_BillingModule.at_last_enter_the(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52153900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks-on continue button",
+            "match": {
+              "location": "StepDefinition.$6_BillingModule.user_clicks_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2045384600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters to shipping step",
+            "match": {
+              "location": "StepDefinition.$6_BillingModule.user_enters_to_shipping_step()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81780600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User Select a shipping address from your address book or enter a new address",
+            "match": {
+              "location": "StepDefinition.$6_BillingModule.user_select_a_shipping_address_from_your_address_book_or_enter_a_new_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47871300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Clickon the continue button",
+            "match": {
+              "location": "StepDefinition.$6_BillingModule.clickon_the_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42919700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Go to shipping method",
+            "match": {
+              "location": "StepDefinition.$6_BillingModule.go_to_shipping_method()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 412863700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "click on the type of shipping method and tick the continue button",
+            "match": {
+              "location": "StepDefinition.$6_BillingModule.click_on_the_type_of_shipping_method_and_tick_the_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3550870000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "select the PO of payment method and press the continue button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PO",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDefinition.$6_BillingModule.select_the_of_payment_method_and_press_the_continue_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 314087500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "press the  confirm order button",
+            "match": {
+              "location": "StepDefinition.$6_BillingModule.press_the_confirm_order_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19173519200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User is able to see placed order details",
+            "match": {
+              "location": "StepDefinition.$6_BillingModule.user_is_able_to_see_placed_order_details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Billing Functionality of Demo WebPage",
+    "description": "",
+    "id": "test-billing-functionality-of-demo-webpage",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/6_BillingPage.feature",
+    "tags": []
+  }
+]

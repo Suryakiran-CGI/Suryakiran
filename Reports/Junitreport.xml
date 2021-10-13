@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="13" time="1.194">
+    <testcase classname="DemoWebShop Registraion process" name="User should move from DemoWebShop page to Registration page" time="0.06">
+        <system-out><![CDATA[Given User is on DemoWebShop page...........................................passed
+When User click on Register button..........................................passed
+Then User is on Registration Page...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="DemoWebShop Registraion process" name="Test Registration process with Valid credintials" time="0.014">
+        <system-out><![CDATA[Given User is on DemoWebShop page...........................................passed
+When User click on Register button..........................................passed
+And User clicks on the male.................................................passed
+And User enters Surya and Kalyan............................................passed
+And User types suryakiran1243@gmail.com.....................................passed
+And User Types surya1234 , surya1234........................................passed
+And User Clicks on Register button..........................................passed
+Then User is succesfully registered.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="DemoWebShop Registraion process" name="Test Registration process with inValid credintials" time="0.028">
+        <system-out><![CDATA[Given User is on DemoWebShop page...........................................passed
+When User click on Register button..........................................passed
+And User clicks on the other................................................passed
+And User enters sam and ruth................................................passed
+And User types kalyani12@gmail.com..........................................passed
+And User Types Yogesh098@ , Yogesh098@......................................passed
+And User Clicks on Register button..........................................passed
+Then User should not able to registered.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Functionality on Demo Web Page" name="Test User Login with Valid Credentials" time="0.005">
+        <system-out><![CDATA[Given User should be on Home page...........................................passed
+When User clicks on Login button............................................passed
+And User should enter Registered johnfletcher@gmail.com and mypas1234$......passed
+And User should click on Log in button......................................passed
+Then User should be able to logged in successfully..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Functionality on Demo Web Page" name="Test User Login with InValid Credentials" time="0.007">
+        <system-out><![CDATA[Given User should be on Home page...........................................passed
+When User clicks on Login button............................................passed
+And User should enter Unregistered admin123@gmail.com and mypass123.........passed
+And User should click on Log in button......................................passed
+Then User should not be able to logged in...................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test item Search and Add Functionality on Demo Web Page" name="Test to validate Add to Cart functionality" time="0.006">
+        <system-out><![CDATA[Given User should be on Home Page by logging-in using johnfletcher@gmail.com and mypass1234$.passed
+When User enters Health Book in search bar..................................passed
+And User clicks on search button............................................passed
+And User clicks on Add to Cart button.......................................passed
+Then User added Health Book should be added to shoppingCart.................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test item Search and Add Functionality on Demo Web Page" name="Test to validate Add to Cart functionality 2" time="0.008">
+        <system-out><![CDATA[Given User should be on Home Page by logging-in using johnfletcher@gmail.com and mypass1234$.passed
+When User enters 14.1-inch Laptop in search bar.............................passed
+And User clicks on search button............................................passed
+And User clicks on Add to Cart button.......................................passed
+Then User added 14.1-inch Laptop should be added to shoppingCart............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test item Search and Add Functionality on Demo Web Page" name="Test to validate Add to Cart functionality 3" time="0.006">
+        <system-out><![CDATA[Given User should be on Home Page by logging-in using johnfletcher@gmail.com and mypass1234$.passed
+When User enters Black & White Diamond Heart in search bar..................passed
+And User clicks on search button............................................passed
+And User clicks on Add to Cart button.......................................passed
+Then User added Black & White Diamond Heart should be added to shoppingCart.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test item Search and Add Functionality on Demo Web Page" name="Test to validate Add to Cart functionality 4" time="0.005">
+        <system-out><![CDATA[Given User should be on Home Page by logging-in using johnfletcher@gmail.com and mypass1234$.passed
+When User enters Books in search bar........................................passed
+And User clicks on search button............................................passed
+Then User gets search results...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test the Update Functionality of added product on Demo Web Page" name="Test for Verifying ShoppingCart Removing Update" time="0.005">
+        <system-out><![CDATA[Given User on Demo Web Shop Home Page with login johnfletcher@gmail.com and mypass1234$.passed
+When User clicks on shopping cart...........................................passed
+And User selects Health Book in Cart........................................passed
+And User checks the respective checkbox of that Health Book.................passed
+And User clicks on Update shopping cart for removing Product................passed
+Then Checked item should be removed from Cart...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test the Update Functionality of added product on Demo Web Page" name="Test for Verifying ShoppingCart AddQuantity Update" time="0.007">
+        <system-out><![CDATA[Given User on Demo Web Shop Home Page with login johnfletcher@gmail.com and mypass1234$.passed
+When User clicks on shopping cart...........................................passed
+And User selects 14.1-inch Laptop in Cart...................................passed
+And User enters 6 value of 14.1-inch Laptop in itemquantity box.............passed
+And User clicks on Update shopping cart button for AddQuantity update.......passed
+Then User entered 14.1-inch Laptop item quantity 6 is updated...............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Checkout functionality of an item" name="_2" time="0.008">
+        <system-out><![CDATA[Given User is on Home page by logging with johnfletcher@gmail.com and mypass1234$.passed
+When user clicks on shoppingCart button.....................................passed
+And Select and enter India and Other (Non US) and 535591....................passed
+And Click Estimate Shipping Button..........................................passed
+And Click on Checkout button................................................passed
+Then User should see Billing Page...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Billing Functionality of Demo WebPage" name="User to enter billing details" time="0.013">
+        <system-out><![CDATA[Given User is on Home Page by logging in by using the johnfletcher@gmail.com and mypass1234$.passed
+When User loggedin navigate to Billing Page.................................passed
+And Now Enter respective  Capgemini.........................................passed
+And Select the Austria and Other (Non US)...................................passed
+And Enter the Lower Austria name............................................passed
+And User Enter the flat 23,Austria,lower bridges details....................passed
+And Now enter the 6754321...................................................passed
+And Enter 987654321 in the field............................................passed
+And At last enter the 119086534.............................................passed
+And User clicks-on continue button..........................................passed
+And User enters to shipping step............................................passed
+And User Select a shipping address from your address book or enter a new address.passed
+And Clickon the continue button.............................................passed
+And Go to shipping method...................................................passed
+And click on the type of shipping method and tick the continue button.......passed
+And select the PO of payment method and press the continue button...........passed
+And press the  confirm order button.........................................passed
+Then User is able to see placed order details...............................passed
+]]></system-out>
+    </testcase>
+</testsuite>
